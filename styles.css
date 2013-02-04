@@ -1,0 +1,20 @@
+/* 
+
+This CSS is for GermanAP
+Created by Zoltan and Edgardo
+
+*/
+
+@font-face
+{
+font-family: MotorWerk;
+src: url('Motorwerk.ttf'),
+}
+
+body {background:url(images/carbon_fiber.jpg); color:white;font-family:MotorWerk;} 
+
+h1{text-shadow: 5px 5px 5px teal; text-align:center; font-size: 70px;}
+h2{text-align:center;}
+
+/* You'll have to play around with padding, to make it look good. */
+#centerBox {border: 2px solid white; margin: 0px 20px 0px 20px; padding: 15px 10px 200px 10px ; background: teal; border-radius:25px; text-align: center; position:relative}
